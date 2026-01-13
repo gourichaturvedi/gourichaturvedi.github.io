@@ -33,8 +33,6 @@ The site is primarily built using:
 /
 ├── index.html           # Main landing page
 ├── assets/              # Images, CSS, JS files
-├── projects/            # Project showcase pages
-├── blog/                # Blog posts (if any)
 └── README.md            # You're here!
 ```
 
@@ -47,4 +45,4 @@ Check out my other repositories:
 
 ----
 
-> Made with ❤️ by Gourichaturvedi
+> Made with ❤️ by Gouri Chaturvedi
