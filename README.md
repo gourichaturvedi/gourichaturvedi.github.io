@@ -1,50 +1,27 @@
-# gourichaturvedi.github.io
+# Gouri Chaturvedi — Portfolio
 
-Welcome to my personal portfolio and homepage, hosted with [GitHub Pages](https://pages.github.com/)!  
-This repository contains the source code and content for [gourichaturvedi.github.io](https://gourichaturvedi.github.io), showcasing my work, projects, and professional profile.
+React portfolio built with Vite and deployed on GitHub Pages.
 
-## 🌟 About
+## Development
 
-This site is designed to provide:
-- An overview of my skills, experience, and interests.
-- A portfolio of featured projects.
-- Contact information and links to my social profiles.
-- Blog posts, tutorials, or other personal content (if available).
-
-## 🚀 Features
-
-- **Responsive Design:** Looks great on any device.
-- **Project Highlights:** Showcases my open-source and professional projects.
-- **Contact Section:** Easy ways to connect with me.
-- **Blog (Optional):** Articles, tutorials, or updates.
-
-## 🛠️ Built With
-
-The site is primarily built using:
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- [Font Awesome](https://fontawesome.com/) for icons
-
-
-## 📂 Structure
-
-```
-/
-├── index.html           # Main landing page
-├── assets/              # Images, CSS, JS files
-├── projects/            # Project showcase pages
-├── blog/                # Blog posts (if any)
-└── README.md            # You're here!
+```sh
+npm install
+npm run dev
 ```
 
-## ⭐️ Projects
+Build and prepare the root files used by the repository's GitHub Pages branch deployment:
 
-Check out my other repositories:
-- [Beautivine](https://github.com/gourichaturvedi/Beautivine)
-- [FoodMania](https://github.com/gourichaturvedi/FoodMania)
-- [LinkVedi](https://github.com/gourichaturvedi/LinkVedi)
+```sh
+npm run build
+```
 
-----
+The build compiles the React app into `dist/` and syncs the generated site into the repository root. Commit the updated root `index.html`, `assets/`, `pfp.jpg`, and `FAVICON.png` when publishing changes.
 
-> Made with ❤️ by Gourichaturvedi
+## Project layout
+
+- `app/src/` — React application and components
+- `app/src/components/` — React Bits Profile Card, Waves, Logo Loop, and Spotlight Card
+- `public/` — source images and favicon copied into the production site
+- `scripts/publish-pages.mjs` — syncs Vite output for the existing GitHub Pages branch source
+
+React Bits component source is from [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits), customized for this site, and used under the [MIT + Commons Clause license](REACT-BITS-LICENSE.md).
